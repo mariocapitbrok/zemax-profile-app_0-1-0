@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+  color: #000;
+}
+
+/*@font-face {*/
+/*  font-family: "MyriadPro-Semibold";*/
+/*  src: url("//cdn.shopify.com/s/files/1/0539/4959/5825/t/1/assets/MyriadPro-Semibold.woff") format("woff");*/
+/*}*/
+
+/*@font-face {*/
+/*  font-family: "MyriadPro-Regular";*/
+/*  src: url("//cdn.shopify.com/s/files/1/0539/4959/5825/t/1/assets/MyriadPro-Regular.woff") format("woff");*/
+/*}*/
+
+#root {
+  padding: 30px;
+  font-family: "MyriadPro-Regular", sans-serif;
+  font-size: 15px;
+}
+
+.App-link {
+  /*color: #61dafb;*/
+}
+
+#root .custom-layout {
+  display: flex;
+  padding-bottom: 30px;
+}
+@media all and (max-width: 768px) {
+  #root .custom-layout {
+    flex-direction: column;
+  }
+
+  #root .licenses-manage-buttons {
+    flex-wrap: wrap;
+  }
+}
+
+
+#root .custom-layout .column.profile-info .Polaris-DisplayText--sizeSmall{
+  font-size: 16px;
+}
+
+#root .custom-layout .column.profile-info {
+  margin-top: 1rem;
+}
+
+#root .custom-layout .column.permissions .Polaris-DisplayText--sizeMedium {
+	font-family: "MyriadPro-Semibold", sans-serif;
+}
+
+#root .custom-layout .column.permissions .Polaris-DisplayText--sizeSmall {
+  font-size: 16px;
+}
+
+#root .custom-layout .column.permissions .Polaris-Layout__Section {
+  margin-bottom: 1.6rem;
+}
+
+#root .custom-layout .column.permissions .Polaris-Card__Section {
+  padding: 0.8rem 2rem 2rem 2rem;
+}
+
+#root .custom-layout .column.permissions a {
+  color: #0070c0;
+}
+#root .custom-layout .column.permissions a:hover {
+  text-decoration: underline;
+  color: #0070c0;
+}
+
+#root .custom-layout .Polaris-Card {
+  margin-bottom: 30px;
+  padding-bottom:  5px;
+}
+
+#root .Polaris-Frame a {
+  color: #0070c0;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#root .Polaris-Frame a:hover {
+  text-decoration: underline;
+}
+
+#root .Polaris-DisplayText {
+  margin-bottom: .3em;
+  margin-top: .3em;
+}
+
+#root .custom-layout .column:nth-child(1){
+  width: 100%;
+  max-width: 360px;
+}
+
+#root .section-heading {
+  padding: 30px 0 20px;
+}
+
+#root .Polaris-DataTable__Heading .Polaris-DataTable__Icon{
+  opacity: 1;
+}
+
+#root .Polaris-DataTable input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+}
+
+#root #ColleagueDetails .Polaris-Modal-Dialog__Modal {
+  width: 98vw;
+}
+
+#support-tickets .support-links {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+@media all and (max-width: 568px) {
+  #support-tickets .support-links {
+    text-align: left;
+  }
+
+  #support-tickets .support-links a {
+    margin-bottom: 10px;
+  }
+}
